@@ -101,6 +101,17 @@ video {
   gap: 12px;
 }
 
-// ---------------------------------------------
-// Votre code ici :
-// ---------------------------------------------
+.marker .product-cart {
+  /* display: none;*/
+  transition: background-color 0.3s;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.marker:hover .product-cart {
+  /* display: inline;*/
+  opacity: 1;
+}
+.marker .product-cart:hover {
+  background-color: #2c5192;
+}
